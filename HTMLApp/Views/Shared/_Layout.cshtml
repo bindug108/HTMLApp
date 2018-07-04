@@ -3,11 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - HTMLApp</title>
+    @*<title>@ViewData["Title"] - HTMLApp</title>*@
+    @*<base href="http://localhost/Resources/" />*@
+    @*<link rel="icon" href="Cross.png" />*@
+    <link rel="stylesheet" href="~/css/style.css" />
+    <title>Style Sheet Example</title>
+
+    <script src="~/js/script.js"></script>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/style.css" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"

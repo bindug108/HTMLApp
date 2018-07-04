@@ -9,4 +9,12 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Resources\Cross.png" />
+  </ItemGroup>
+
 </Project>
