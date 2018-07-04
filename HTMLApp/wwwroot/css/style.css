@@ -1,0 +1,10 @@
+﻿body {
+}
+
+h1{
+    color: red;
+    background: yellow;
+    border: 10px dashed blue;
+    padding: 5px;
+    width:550px;
+}
