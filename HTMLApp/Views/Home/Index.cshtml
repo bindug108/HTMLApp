@@ -2,11 +2,34 @@
     ViewData["Title"] = "Home Page";
 }
 
+
+<p>
+    This program assigns an input value to <var>degF</var> then performs a conversion on that value,
+    assigning the reesult to <var>degC</var> for output
+</p>
+
+<pre>
+<code>
+    #include &lt;iostream&gt;
+    using namespace std;
+    int main()
+    {
+        float degF, degC;
+        cout &lt;&lt; "Enter Fahrenheit Temperature:";
+        cin &gt;&gt; degF;
+        degC = ((degF - 32.0) * (5.0/9.0));
+        cout &lt;&lt; degF &lt;&lt; "F is " &lt;&lt; degC &lt;&lt; "C";
+        cout &lt;&lt; endl;
+        return 0;
+    }
+</code>
+</pre>
+<data value="978-1-84078-719-1">C++ Programming in easy steps, 5th Edition</data>
+<time datetime="2016-12-15">(December 15th, 2016)</time>
+
 <p>Square of four: 4&sup2; = 16<br />Cube of four: 4&sup3; = 64</p>
 <p>Square of four: 4<sup>2</sup> = 16<br />Cube of four: 4<sup>3</sup> = 64</p>
 <p>Water: H<sub>2</sub>O<br />Oil of Vitriol: H<sub>2</sub>SO<sub>4</sub></p>
-
-
 
 <h1>Text-Art Signature</h1>
 <pre>
