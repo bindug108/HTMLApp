@@ -31,3 +31,22 @@ p#links{
     border: 3px double green;
     width: 200px;
 }
+
+p.btn {
+    width: 192px;
+    height: 67px;
+    background: url("/images/rollover-bg.png");
+}
+
+p.btn a{
+    display: block;
+    width: 192px; height:67px;
+}
+
+p.btn a img {
+    border: 0px;
+}
+
+p.btn a:hover img{
+    visibility: hidden;
+}

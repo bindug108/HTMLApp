@@ -2,11 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-<img id="chart" src="~/images/chart.png" alt="Chart Image" />
-<p id="links">
-    <a href="javascript:toggle()">Show/Hide Chart</a>
-    <a href="mailto:wendy@example.com">Email Wendy</a>
+<p class="btn">
+    <a href="http://www.youtube.com">
+        <img src="~/images/rollover-btn.png" alt="Hyperlink to YouTube" width="192" height="67" />
+    </a>
 </p>
+
+<div>
+    <img id="chart" src="~/images/chart.png" alt="Chart Image" title="ssd" />
+    <p id="links">
+        <a href="javascript:toggle()">Show/Hide Chart</a>
+        <a href="mailto:wendy@example.com">Email Wendy</a>
+    </p>
+</div>
 
 <img src="~/images/fish.png" width="200" height="150" alt="Fish" />
 <img src="~/images/fish.png" width="150" height="112" alt="Fish" />
@@ -15,8 +23,11 @@
 <p><abbr title="HyperText Markup Language">HTML</abbr>5 in easy steps</p>
 <p><cite title="Inventor of the HyperText Markup Language">Sir Tim Berners-Lee</cite></p>
 <p><dfn title="The popular language of the WorldWideWeb. Commonly abbreviated to 'HTML'">HyperText Markup Language</dfn></p>
-<p><kbd title="Press Y key on your keyboard to execute a script. This requires JavaScript to be enabled in your browser">
-    Hit Y to Continue</kbd></p>
+<p>
+    <kbd title="Press Y key on your keyboard to execute a script. This requires JavaScript to be enabled in your browser">
+        Hit Y to Continue
+    </kbd>
+</p>
 
 <p>
     This program assigns an input value to <var>degF</var> then performs a conversion on that value,
