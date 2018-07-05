@@ -84,3 +84,13 @@ ol#list-3{
     padding-left: 50px;
     border-left: 3px dashed;
 }
+
+table#data{
+    width: 580px;
+    font-family: sans-serif;
+    border: 5px solid black;
+}
+
+table#data td, th{
+    border: 1px solid black;
+}
