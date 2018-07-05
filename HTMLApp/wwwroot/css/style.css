@@ -70,3 +70,17 @@ ul.image-bullets {
     list-style-image: url("/images/go.png");
     clear: both;
 }
+
+ol{
+    display: table-cell
+}
+
+ol#list-2{
+    padding-right: 20px;
+}
+
+ol#list-3{
+    list-style-type: upper-roman;
+    padding-left: 50px;
+    border-left: 3px dashed;
+}
